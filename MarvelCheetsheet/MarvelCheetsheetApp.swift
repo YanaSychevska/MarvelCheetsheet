@@ -11,7 +11,14 @@ import SwiftUI
 struct MarvelCheetsheetApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CharactersMainScreen(characters: [MockCharacterModel().mock,
+                                              MockCharacterModel().mock,
+                                              MockCharacterModel().mock,
+                                              MockCharacterModel().mock,
+                                              MockCharacterModel().mock,
+                                              MockCharacterModel().mock,
+                                              MockCharacterModel().mock,
+                                              MockCharacterModel().mock])
         }
     }
 }
