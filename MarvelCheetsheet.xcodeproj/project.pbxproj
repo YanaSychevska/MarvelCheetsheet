@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6EA51CAA2AABD36A005E1FDB /* MarvelCheetsheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CA92AABD36A005E1FDB /* MarvelCheetsheetApp.swift */; };
-		6EA51CAC2AABD36A005E1FDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CAB2AABD36A005E1FDB /* ContentView.swift */; };
+		6EA51CAC2AABD36A005E1FDB /* CharactersMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CAB2AABD36A005E1FDB /* CharactersMainScreen.swift */; };
 		6EA51CAE2AABD36A005E1FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA51CAD2AABD36A005E1FDB /* Assets.xcassets */; };
 		6EA51CB22AABD36A005E1FDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA51CB12AABD36A005E1FDB /* Preview Assets.xcassets */; };
 		6EA51CBC2AABD36B005E1FDB /* MarvelCheetsheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CBB2AABD36B005E1FDB /* MarvelCheetsheetTests.swift */; };
 		6EA51CC62AABD36B005E1FDB /* MarvelCheetsheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CC52AABD36B005E1FDB /* MarvelCheetsheetUITests.swift */; };
 		6EA51CC82AABD36B005E1FDB /* MarvelCheetsheetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CC72AABD36B005E1FDB /* MarvelCheetsheetUITestsLaunchTests.swift */; };
+		6EA51CD72AABFCA2005E1FDB /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CD62AABFCA2005E1FDB /* GridItemView.swift */; };
+		6EA51CDA2AAE86EB005E1FDB /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CD92AAE86EB005E1FDB /* CharacterModel.swift */; };
+		6EA51CE12AAEA8EB005E1FDB /* MockCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA51CE02AAEA8EB005E1FDB /* MockCharacterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +39,18 @@
 /* Begin PBXFileReference section */
 		6EA51CA62AABD36A005E1FDB /* MarvelCheetsheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelCheetsheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA51CA92AABD36A005E1FDB /* MarvelCheetsheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCheetsheetApp.swift; sourceTree = "<group>"; };
-		6EA51CAB2AABD36A005E1FDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EA51CAB2AABD36A005E1FDB /* CharactersMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersMainScreen.swift; sourceTree = "<group>"; };
 		6EA51CAD2AABD36A005E1FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EA51CAF2AABD36A005E1FDB /* MarvelCheetsheet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarvelCheetsheet.entitlements; sourceTree = "<group>"; };
 		6EA51CB12AABD36A005E1FDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EA51CB72AABD36B005E1FDB /* MarvelCheetsheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelCheetsheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA51CBB2AABD36B005E1FDB /* MarvelCheetsheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCheetsheetTests.swift; sourceTree = "<group>"; };
 		6EA51CC12AABD36B005E1FDB /* MarvelCheetsheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelCheetsheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA51CC52AABD36B005E1FDB /* MarvelCheetsheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCheetsheetUITests.swift; sourceTree = "<group>"; };
 		6EA51CC72AABD36B005E1FDB /* MarvelCheetsheetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCheetsheetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EA51CD62AABFCA2005E1FDB /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		6EA51CD92AAE86EB005E1FDB /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		6EA51CDE2AAEA5E6005E1FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA51CE02AAEA8EB005E1FDB /* MockCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCharacterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +101,12 @@
 		6EA51CA82AABD36A005E1FDB /* MarvelCheetsheet */ = {
 			isa = PBXGroup;
 			children = (
+				6EA51CDF2AAEA8D5005E1FDB /* Temp */,
+				6EA51CDB2AAE9353005E1FDB /* ViewModel */,
+				6EA51CD82AAE86DC005E1FDB /* Model */,
+				6EA51CD52AABFB29005E1FDB /* SupportingFiles */,
+				6EA51CD42AABFAF7005E1FDB /* Views */,
 				6EA51CA92AABD36A005E1FDB /* MarvelCheetsheetApp.swift */,
-				6EA51CAB2AABD36A005E1FDB /* ContentView.swift */,
-				6EA51CAD2AABD36A005E1FDB /* Assets.xcassets */,
-				6EA51CAF2AABD36A005E1FDB /* MarvelCheetsheet.entitlements */,
 				6EA51CB02AABD36A005E1FDB /* Preview Content */,
 			);
 			path = MarvelCheetsheet;
@@ -127,6 +135,47 @@
 				6EA51CC72AABD36B005E1FDB /* MarvelCheetsheetUITestsLaunchTests.swift */,
 			);
 			path = MarvelCheetsheetUITests;
+			sourceTree = "<group>";
+		};
+		6EA51CD42AABFAF7005E1FDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EA51CAB2AABD36A005E1FDB /* CharactersMainScreen.swift */,
+				6EA51CD62AABFCA2005E1FDB /* GridItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EA51CD52AABFB29005E1FDB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6EA51CDE2AAEA5E6005E1FDB /* Info.plist */,
+				6EA51CAD2AABD36A005E1FDB /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		6EA51CD82AAE86DC005E1FDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EA51CD92AAE86EB005E1FDB /* CharacterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EA51CDB2AAE9353005E1FDB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6EA51CDF2AAEA8D5005E1FDB /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				6EA51CE02AAEA8EB005E1FDB /* MockCharacterModel.swift */,
+			);
+			path = Temp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA51CAC2AABD36A005E1FDB /* ContentView.swift in Sources */,
+				6EA51CAC2AABD36A005E1FDB /* CharactersMainScreen.swift in Sources */,
+				6EA51CDA2AAE86EB005E1FDB /* CharacterModel.swift in Sources */,
+				6EA51CE12AAEA8EB005E1FDB /* MockCharacterModel.swift in Sources */,
+				6EA51CD72AABFCA2005E1FDB /* GridItemView.swift in Sources */,
 				6EA51CAA2AABD36A005E1FDB /* MarvelCheetsheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,14 +463,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MarvelCheetsheet/MarvelCheetsheet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MarvelCheetsheet/Preview Content\"";
-				DEVELOPMENT_TEAM = BMU5QSBAWB;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelCheetsheet/SupportingFiles/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,18 +483,21 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jjj.MarvelCheetsheet;
+				PRODUCT_BUNDLE_IDENTIFIER = yanasychevska;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,14 +506,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MarvelCheetsheet/MarvelCheetsheet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MarvelCheetsheet/Preview Content\"";
-				DEVELOPMENT_TEAM = BMU5QSBAWB;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelCheetsheet/SupportingFiles/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,18 +526,21 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jjj.MarvelCheetsheet;
+				PRODUCT_BUNDLE_IDENTIFIER = yanasychevska;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
