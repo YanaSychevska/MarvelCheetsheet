@@ -101,7 +101,7 @@
 		6EA51CA82AABD36A005E1FDB /* MarvelCheetsheet */ = {
 			isa = PBXGroup;
 			children = (
-				6EA51CDF2AAEA8D5005E1FDB /* Temp */,
+				6EA51CDF2AAEA8D5005E1FDB /* Mock */,
 				6EA51CDB2AAE9353005E1FDB /* ViewModel */,
 				6EA51CD82AAE86DC005E1FDB /* Model */,
 				6EA51CD52AABFB29005E1FDB /* SupportingFiles */,
@@ -170,12 +170,12 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		6EA51CDF2AAEA8D5005E1FDB /* Temp */ = {
+		6EA51CDF2AAEA8D5005E1FDB /* Mock */ = {
 			isa = PBXGroup;
 			children = (
 				6EA51CE02AAEA8EB005E1FDB /* MockCharacterModel.swift */,
 			);
-			path = Temp;
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
